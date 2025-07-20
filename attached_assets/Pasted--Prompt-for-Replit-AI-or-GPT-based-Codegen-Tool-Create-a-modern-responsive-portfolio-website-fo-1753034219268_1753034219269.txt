@@ -1,0 +1,101 @@
+🧠 Prompt for Replit AI or GPT-based Codegen Tool:
+
+Create a modern, responsive portfolio website for a backend software engineer named Enock Kimutai Sang. Use HTML + Tailwind CSS, and optionally JavaScript or React for interactivity. The website should have a clean, developer-centric UI optimized for fast loading, light/dark modes, and mobile responsiveness.
+
+🔖 Site Sections & Details:
+
+1. Landing Page / Home
+- Name: Enock Kimutai Sang
+- Title: Backend Software Engineer
+- Tagline: “Building resilient cloud-native systems and smart automation tools.”
+- Intro paragraph:
+  “I'm a highly skilled backend developer proficient in C#, Java, .NET, and Spring. I focus on high-quality code, API design, DevOps, and scalable backend systems, with a passion for team leadership and innovation.”
+- CTA buttons:
+  - View Projects
+  - Download Resume (PDF)
+
+2. About Me
+- A headshot placeholder
+- Paragraph with:
+  - Key experience: White Label Tracking (IoT platform, Docker migration, gRPC, video telematics)
+  - Tech strengths: C#, Java, .NET, Spring, microservices, SQL
+  - Personal note: Enjoys gaming and biking
+
+3. Skills
+Display in categorized format:
+- Languages & Frameworks: C#, Java, .NET Core, Spring, PHP/Laravel, JavaScript, Angular, Node.js
+- Tools: Docker, Kubernetes, Git, RabbitMQ, GSuite, Microsoft Teams
+- Databases: MySQL, SQL Server, Oracle
+- Concepts: RESTful APIs, gRPC, SOAP, DevOps, Agile, TDD
+- Use Tailwind tags or icons for each
+
+4. Projects Section (with screenshots)
+Create a grid or card-based layout to showcase 4 main projects, each with:
+- Project Title
+- Short description (2–4 lines)
+- Key features (optional bullets)
+- Tech stack used
+- GitHub link
+- Screenshot/image placeholder
+
+🔹 Project 1: Telegram Mpesa Bot
+- Tech stack: .NET, Telegram Bot API
+- Description: A Telegram bot that notifies schools in real-time when fee payments are made via Mpesa Paybill. Designed to support finance managers and school admins with real-time transaction visibility.
+- Screenshot Placeholder: telegram-bot.jpg
+
+🔹 Project 2: Price Harbour
+- Tech stack: Node.js, web crawling, chatbot, JavaScript
+- Description: A smart platform that enables users to search and compare products across multiple e-commerce websites from one place. Includes a chatbot to assist with product queries.
+- Features:
+  - Web crawling and price comparison
+  - Chatbot integration
+- Screenshot Placeholder: price-harbour.jpg
+
+🔹 Project 3: ShuleOne
+- Tech stack: Angular, TypeScript, .NET Web APIs
+- Description: An all-in-one school management system for handling academics, finance, asset management, and more.
+- GitHub: https://github.com/PREMA-LTD/Prema.ShuleOne.Web
+- Screenshot Placeholder: shuleone.jpg
+
+🔹 Project 4: ChamaOne – Group Finance Tracker
+- Tech stack: .NET, Angular (assumed), Bulk SMS integration
+- Description: A group finance management app designed for self-help groups, chamas, and CBOs.
+- Features:
+  - Monthly contribution tracking
+  - Loan distribution and repayment management
+  - Project tracking and bulk SMS reminders
+- GitHub: https://github.com/PREMA-LTD/Prema.ChamaOne
+- Screenshot Placeholder: chamaone.jpg
+
+🎨 Use Tailwind CSS card layout with:
+- Image at the top or side
+- Clean title and brief tech tags
+- Optional filter buttons (e.g., .NET, Angular, Bots)
+
+5. Work Experience
+Create a vertical timeline layout or cards:
+- White Label Tracking (2021–Now): IoT SaaS backend, microservices, Docker, video telematics, API design
+- Kenya Revenue Authority (2020–2021): Customs system (iCMS), dashboards, RECTS, Spring MVC, Oracle DB
+- Kabarak University (2018): E-learning system management & digitization
+
+6. Education & Certifications
+- BSc. Computer Science – South Eastern Kenya University
+- Kubernetes & Cloud Native Essentials – Linux Foundation
+- PRINCE2 Project Mgmt – Leanovate
+- Google Project Mgmt – Coursera
+- Microsoft Entry-Level Software Dev – Liquid Intelligent Technologies
+
+7. Contact
+- Email: enocksang@outlook.com
+- LinkedIn & GitHub Icons with links
+- Optional form: Name, Email, Message (uses Formspree)
+
+8. Footer
+- “© 2025 Enock Sang — Built with ❤️ using Tailwind CSS”
+- Social icons (GitHub, LinkedIn)
+
+✨ Extras (Optional)
+- Dark/light mode toggle
+- Smooth page transitions
+- Lazy-load project images
+- SEO tags for improved visibility
