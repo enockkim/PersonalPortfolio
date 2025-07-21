@@ -5,7 +5,7 @@ export function SkillsSection() {
     {
       title: "Languages & Frameworks",
       icon: Code,
-      skills: ["C#", "Java", ".NET Core", "Spring", "Laravel", "JavaScript", "Angular", "Node.js"]
+      skills: ["C#", "Java", ".NET Core", "Spring Boot", "JavaScript", "Angular", "React", "Node.js"]
     },
     {
       title: "Tools",

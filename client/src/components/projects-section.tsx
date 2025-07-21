@@ -9,7 +9,7 @@ export function ProjectsSection() {
     {
       title: "Telegram Mpesa Bot",
       description: "A Telegram bot that notifies schools in real-time when fee payments are made via Mpesa Paybill. Designed to support finance managers and school admins with real-time transaction visibility.",
-      image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
+      image: "https://files.prema.co.ke/portfolio/telegram_bot.png",
       tech: [".NET", "Telegram Bot API"],
       github: "#",
       category: "Bots"
@@ -21,15 +21,15 @@ export function ProjectsSection() {
         "Web crawling and price comparison",
         "Chatbot integration"
       ],
-      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
-      tech: ["Node.js", "JavaScript", "Chatbot"],
+      image: "https://files.prema.co.ke/portfolio/price_harbour_home.jpg",
+      tech: ["Node.js", "JavaScript", "React", ".NET"],
       github: "#",
       category: "Web"
     },
     {
       title: "ShuleOne",
       description: "An all-in-one school management system for handling academics, finance, asset management, and more. Built to streamline school operations and improve administrative efficiency.",
-      image: "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
+      image: "https://files.prema.co.ke/portfolio/shule_one.png",
       tech: ["Angular", "TypeScript", ".NET APIs"],
       github: "https://github.com/PREMA-LTD/Prema.ShuleOne.Web",
       category: "Angular"
@@ -42,14 +42,14 @@ export function ProjectsSection() {
         "Loan distribution and repayment management",
         "Project tracking and bulk SMS reminders"
       ],
-      image: "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
+      image: "https://files.prema.co.ke/portfolio/chama_one_home.png",
       tech: [".NET", "Angular", "SMS Integration"],
       github: "https://github.com/PREMA-LTD/Prema.ChamaOne",
       category: ".NET"
     }
   ];
 
-  const filters = ["All", ".NET", "Angular", "Bots"];
+  const filters = ["All", ".NET", "Angular", "React", "Bots"];
 
   const filteredProjects = activeFilter === "All" 
     ? projects 

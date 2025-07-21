@@ -9,7 +9,7 @@ export function AboutSection() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="order-2 lg:order-1">
             <img 
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=800" 
+              src= "https://files.prema.co.ke/portfolio/profile.jpeg"
               alt="Enock Kimutai Sang" 
               className="w-full max-w-md mx-auto rounded-2xl shadow-2xl"
             />
@@ -17,14 +17,14 @@ export function AboutSection() {
           <div className="order-1 lg:order-2">
             <div className="prose prose-lg dark:prose-invert max-w-none">
               <p className="text-gray-600 dark:text-gray-300 leading-relaxed mb-6">
-                With extensive experience at <strong>White Label Tracking</strong>, I've specialized in building IoT platforms, 
-                orchestrating Docker migrations, implementing gRPC services, and developing video telematics solutions. 
+                With extensive experience at <strong>White Label Telematics and other organizations</strong>, I've specialized in building IoT platforms, 
+                developing microservices, integreating device protocols, and developing video telematics solutions. 
                 My expertise spans across modern backend technologies and cloud-native architectures.
               </p>
               <p className="text-gray-600 dark:text-gray-300 leading-relaxed mb-6">
                 My technical strengths include <strong>C#</strong>, <strong>Java</strong>, <strong>.NET</strong>, 
                 <strong>Spring</strong>, microservices architecture, and SQL databases. I'm passionate about 
-                writing clean, maintainable code and designing robust APIs that scale.
+                writing clean, maintainable code and designing robust applications that scale.
               </p>
               <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
                 When I'm not coding, you'll find me gaming or biking, activities that help me stay creative 

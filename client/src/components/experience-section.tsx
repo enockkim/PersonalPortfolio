@@ -4,16 +4,16 @@ export function ExperienceSection() {
       title: "Backend Developer",
       company: "White Label Tracking",
       period: "2021 – Present",
-      description: "Leading IoT SaaS backend development, orchestrating Docker migrations, implementing gRPC services, and developing video telematics solutions. Focused on microservices architecture and API design for scalable tracking platform.",
-      technologies: ["IoT", "Docker", "gRPC", "Microservices"],
+      description: "Part of IoT SaaS backend development, creating scalable microservices, and developing video telematics solutions. Part of developing microservices architecture and API design for scalable tracking platform.",
+      technologies: ["IoT", "Docker", "C#", "Microservices", "RabbitMQ", "Java"],
       isLeft: true
     },
     {
       title: "Software Developer",
       company: "Kenya Revenue Authority",
       period: "2020 – 2021",
-      description: "Developed and maintained the integrated Customs Management System (iCMS), created dashboards for RECTS system, and worked with Spring MVC framework and Oracle Database for critical government systems.",
-      technologies: ["Spring MVC", "Oracle DB", "Dashboards"],
+      description: "Developed and maintained the integrated Customs Management System (iCMS), created dashboards for tax collection analytics, and worked with Spring MVC framework and Oracle Database for critical government systems.",
+      technologies: ["Spring MVC", "Oracle DB", "Java", "Dashboards"],
       isLeft: false
     },
     {

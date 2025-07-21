@@ -87,10 +87,11 @@ export function ContactSection() {
                 <div>
                   <h4 className="font-semibold text-gray-900 dark:text-white">LinkedIn</h4>
                   <a 
-                    href="#" 
+                    href="https://www.linkedin.com/in/enocksang-engineer/" 
+                    target="_blank"
                     className="text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300"
                   >
-                    linkedin.com/in/enock-sang
+                    enocksang-engineer
                   </a>
                 </div>
               </div>
@@ -105,10 +106,11 @@ export function ContactSection() {
                 <div>
                   <h4 className="font-semibold text-gray-900 dark:text-white">GitHub</h4>
                   <a 
-                    href="#" 
+                    href="https://github.com/enockkim" 
+                    target="_blank"
                     className="text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300"
                   >
-                    github.com/enock-sang
+                    enockkim
                   </a>
                 </div>
               </div>
@@ -116,7 +118,7 @@ export function ContactSection() {
           </div>
 
           {/* Contact Form */}
-          <div>
+          {/* <div>
             <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-8">Send a Message</h3>
             <form onSubmit={handleSubmit} className="space-y-6">
               <div>
@@ -172,7 +174,7 @@ export function ContactSection() {
                 {isSubmitting ? "Sending..." : "Send Message"}
               </Button>
             </form>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
