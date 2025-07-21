@@ -31,7 +31,14 @@ export default defineConfig({
   server: {
     fs: {
       strict: true,
-      deny: ["**/.*"],
+      deny: ["**/.*"]
     },
-  },
+    host: true,
+    allowedHosts: ['enock-engineer.prema.co.ke'],
+    hmr: {
+      protocol: 'ws',
+      host: 'enock-engineer.prema.co.ke',
+      port: 5173
+    }
+  }
 });
