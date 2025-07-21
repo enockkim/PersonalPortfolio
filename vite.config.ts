@@ -31,7 +31,8 @@ export default defineConfig({
   server: {
     fs: {
       strict: true,
-      deny: ["**/.*"],
+      deny: ["**/.*"],      
+      allowedHosts: ['enock-engineer.prema.co.ke']
     },
   },
 });
