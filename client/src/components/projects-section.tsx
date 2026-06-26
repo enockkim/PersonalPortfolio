@@ -7,6 +7,14 @@ export function ProjectsSection() {
 
   const projects = [
     {
+      title: "NetSafi",
+      description: "Smart Internet Filtering & Device Control system for schools, enabling administrators to manage internet access and device usage effectively. Features include content filtering, device monitoring, and user management.",
+      image: "https://files.prema.co.ke/portfolio/netsafi/netsafi.png",
+      tech: [".NET", "React", ".NET Maui", "PostgreSQL"],
+      github: "https://app-netsafi.prema.co.ke/",
+      category: "Web"
+    },
+    {
       title: "Telegram Mpesa Bot",
       description: "A Telegram bot that notifies schools in real-time when fee payments are made via Mpesa Paybill. Designed to support finance managers and school admins with real-time transaction visibility.",
       image: "https://files.prema.co.ke/portfolio/telegram_bot.png",
@@ -135,7 +143,7 @@ export function ProjectsSection() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  View on GitHub
+                  View Project
                   <ExternalLink className="ml-2 w-4 h-4" />
                 </a>
               </div>
